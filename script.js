@@ -19,7 +19,7 @@ let intervalId;
 const startColorChange = () => {
     intervalId = setInterval(function () {
         document.body.style.backgroundColor = randomColor();
-    }, 1000)
+    }, 500)
 };
 
 // stop function for event listeners
